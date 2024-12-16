@@ -16,6 +16,11 @@ h3 {
 }
 .call-action {
   background: url("extra/hero-img.jpg") no-repeat center center/cover;
+  margin-bottom: 20px;
+}
+.call-action h2 {
+  color: #ffff;
+  padding-top: 20px;
 }
 
 p {
@@ -34,7 +39,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  margin: 10px;
+  margin: 20px 15px;
   transition: background-color 0.3s;
 }
 
@@ -64,7 +69,7 @@ button:hover {
 }
 
 .events {
-  background-color: #ffe5d9;
+  background-color: #f7c0a7;
   padding: 40px 20px;
   text-align: left;
   margin: 20px 0;
@@ -88,7 +93,7 @@ button:hover {
 }
 
 .register {
-  background-color: #ffe5d9;
+  background-color: #fbb391;
   padding: 40px 20px;
   margin: 20px 0;
 }
@@ -127,7 +132,7 @@ button:hover {
 }
 
 .donation {
-  background-color: #ffe5d9;
+  background-color: #f8a47e;
   padding: 40px 20px;
   text-align: left;
   margin: 20px 0;
@@ -164,7 +169,7 @@ button:hover {
 }
 
 .about {
-  background-color: #ffe5d9;
+  background-color: #fa844e;
   padding: 40px 20px;
   text-align: center;
 }
