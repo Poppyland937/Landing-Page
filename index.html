@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="landing.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>The Open Mind Project</title>
   </head>
   <body>
@@ -23,8 +23,8 @@
           making mental health care accessible, approachable, and a little less
           daunting. Let’s work together towards a happier, healthier you!
         </p>
-        <button>Donate Now</button>
-        <button>Get Involved</button>
+        <a href="#donations"><button>Donate Now</button></a>
+        <a href="#registers"><button>Get Involved</button></a>
       </div>
     </section>
     <section class="events">
@@ -64,10 +64,10 @@
         </ul>
       </div>
     </section>
-    <section class="register">
+    <section class="register" id="registers">
       <div>
         <h2>Register for Event☀️</h2>
-        <form>
+        <form id="registrationForm">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required /><br />
           <label for="email">Email:</label>
@@ -85,11 +85,11 @@
         </form>
       </div>
     </section>
-    <section class="donation">
+    <section class="donation" id="donations">
       <h2>Donation</h2>
       <div>
-        <form>
-          <label for="amount">Donation Amount:</label>
+        <form id="donationForm">
+          <label for="amount">Donation Amount (£):</label>
           <input type="text" id="amount" name="amount" required /><br />
           <label for="message">Message(Optional)</label>
           <input type="text" id="message" name="message" /><br />
@@ -134,5 +134,6 @@
         </p>
       </div>
     </section>
+    <script src="scripts.js"></script>
   </body>
 </html>

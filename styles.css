@@ -81,7 +81,7 @@ button:hover {
   color: #2c3e50;
 }
 
-.events ol {
+.events ul {
   max-width: 800px;
   margin: 20px auto;
   padding-left: 20px;
